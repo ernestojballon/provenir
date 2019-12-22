@@ -1,0 +1,24 @@
+<div class="d-flex flex-column h-100">
+    <div class="container d-flex mb-auto ">
+        <div class="loginform mx-auto mt-5 ">
+            <form class="form-signin" (submit)="singIn($event);">
+                <img class="mb-4" src="../../assets/images/provenirlogo.png" alt="" width="162" height="42">
+                <h1 class="h3 mb-3 font-weight-normal text-secondary">Sign in</h1>
+
+                <input type="text" [(ngModel)]="user.username" name="username" class="form-control mb-3"
+                    placeholder="Username" required autofocus="">
+
+                <input type="password" [(ngModel)]="user.password" name="password" class="form-control mb-3"
+                    placeholder="Password" required>
+
+                <button [disabled]='user.username == "" || user.password == ""' class="btn btn-lg btn-primary btn-block"
+                    type="submit">Sign in</button>
+                <p class="mt-5 mb-3 text-muted">© 2019-2020</p>
+            </form>
+
+        </div>
+    </div>
+    <div class="fixed-bottom d-flex">
+        <p class="mx-auto text-muted">Develop by Ernesto J Ballon</p>
+    </div>
+</div>

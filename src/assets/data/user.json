@@ -1,0 +1,28 @@
+[
+    {
+        "id":345,
+        "username":"ernesto@provenir",
+        "password":"password",
+        "name": "Ernesto",
+        "token":"n4j6n3b6k3nl2ks9x0ap0vn"
+    },
+    {
+        "id":2345,
+        "username":"james@provenir",
+        "password":"password",
+        "name": "James",
+        "token":"786min67hu7"
+    },{
+        "id":3466,
+        "username":"pavel@provenir",
+        "password":"password",
+        "name": "Pavel",
+        "token":"34t3gcertu7tryb5eyv"
+    },{
+        "id":346,
+        "username":"amanda@provenir",
+        "password":"password",
+        "name": "Amanda",
+        "token":"34v53rgb4t63b4tr2"
+    }
+]

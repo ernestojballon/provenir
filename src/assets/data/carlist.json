@@ -1,0 +1,36 @@
+[
+    {
+        "id":134,
+        "model":"Nissan",
+        "make":"Sentra",
+        "yearOfManufacture": "10/02/2014",
+        "MotorId":"n4j6n3b6k3nl2ks9x0ap0vn",
+        "imgSrc": "nissan.jpeg",
+        "price": 2000
+    },
+    {
+        "id":412,
+        "model":"Toyota",
+        "make":"Prius",
+        "yearOfManufacture": "11/10/2015",
+        "MotorId":"786min67hu7",
+        "imgSrc": "toyota.jpeg",
+        "price": 1000
+    },{
+        "id":1343,
+        "model":"Mercedes",
+        "make":"Benz",
+        "yearOfManufacture": "09/06/2011",
+        "MotorId":"34t3gcertu7tryb5eyv",
+        "imgSrc": "mercedes.jpeg",
+        "price": 4000
+    },{
+        "id":1245,
+        "model":"Tesla",
+        "make":"Model 3",
+        "yearOfManufacture": "10/10/2010",
+        "MotorId":"34v53rgb4t63b4tr2",
+        "imgSrc": "tesla.jpeg",
+        "price": 5000
+    }
+]

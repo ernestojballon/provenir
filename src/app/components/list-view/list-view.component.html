@@ -1,0 +1,33 @@
+<nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/provenirlogo.png" width="200" height="50" alt="">
+        </a>
+</nav>
+<div class="container m-auto py-4 px-0">
+    
+    <div class="h4 mb-4 text-secondary">Hurry up!! only have these car remain in the store</div>
+
+    <div *ngIf="cars" class="container-list d-flex flex-wrap justify-content-center mt-5">
+            <div *ngFor= "let car of cars" class="card p-2 m-2" >
+                    <div class="imgcontainer card-img-top d-flex">
+                        <img src="assets/images/cars/{{car.imgSrc}}" class="m-auto img-fluid" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title">{{car.model}}</h4>
+                      <p class="card-title text-secondary">{{car.make}}</p>
+                      <p class="card-title">Year of Manufacture:</p>
+                      <h5 class="card-text">{{car.yearOfManufacture}}</h5>
+                      <p class="card-title">Price:</p>
+                      <h5 class="card-text">{{car.price}}</h5>
+
+                      <a href="#" class="btn btn-primary mt-3">Go somewhere</a>
+                    </div>
+            </div>
+    </div>
+    <div *ngIf="!cars" class="noCars d-flex">
+        <div class= "m-auto">
+            <p>No cars to display come back soon</p>
+        </div>
+    </div>
+</div>
+

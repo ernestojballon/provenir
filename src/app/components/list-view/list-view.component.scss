@@ -1,0 +1,18 @@
+.card{
+    width: 18rem;
+}
+.imgcontainer{
+    height: 200px;
+}
+.container{
+    width: 100%;
+}
+
+@media (max-width: 540px) {
+    .card{
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+    }
+  }

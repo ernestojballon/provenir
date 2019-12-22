@@ -1,0 +1,10 @@
+
+@import "./variables.scss";
+
+body{
+  border-top: 20px solid $primary;
+  background-color: rgb(250,250,250) !important;
+  font-size: 20px;
+  color: black;
+  font-Family:Roboto, "Helvetica Neue", sans-serif;
+}
